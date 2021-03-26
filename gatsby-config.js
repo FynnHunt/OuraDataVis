@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `100 Plus Data Vis`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `100+ Data Visualisation`,
+    description: `Test page to visualise data provided by health API's.`,
     author: `@gatsbyjs`,
   },
   plugins: [

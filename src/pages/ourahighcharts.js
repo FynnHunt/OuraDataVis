@@ -213,7 +213,7 @@ const OuraHighchartsPage = () => {
 
   return (<Layout>
     <SEO title="Highcharts" />
-    <button onClick={() => loadData()}>Load Oura Sample Data</button>
+    <button onClick={() => loadData()}>Load Sample Data</button>
     <div style={{ display: "flex", flexWrap: "wrap" }}>
       <div style={{ flex: 1 }}>
         <StaticImage
@@ -234,10 +234,10 @@ const OuraHighchartsPage = () => {
     <HighchartsReact highcharts={Highcharts} options={activityOptions} />
     <HighchartsReact highcharts={Highcharts} options={sleepOptions} />
     <HighchartsReact highcharts={Highcharts} options={readinessOptions} />
-    <p>
+    {/* <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    </p> */}
   </Layout>)
 }
 
